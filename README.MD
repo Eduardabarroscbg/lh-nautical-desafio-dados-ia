@@ -1,6 +1,6 @@
 <div class="hero-image">
     <div class="frame">
-        <img src="assets/cursolighthouse.png" alt="banner da indicium">
+        <img src="https://raw.githubusercontent.com/Eduardabarroscbg/lh-nautical-desafio-dados-ia/master/assets/cursolighthouse.png" alt="banner da indicium">
     </div>
 </div>
 
@@ -126,11 +126,11 @@ Painel em Streamlit + Plotly, conectado direto ao banco Postgres da Questão 3. 
 
 Estrutura do painel: KPIs gerais no topo → resumo em texto das Questões 1-3 (etapas técnicas sem gráfico de negócio próprio) → 4 explorações extras (faturamento por região, top 10 produtos, cliente multi-região de maior valor, top 5 produtos em Alagoas) → Questões 4 a 7 com cenário, gráfico e conclusão → conclusão geral.
 
-![Visão geral do painel](assets/01_dashboard_visao_geral.png)
+![Visão geral do painel](https://raw.githubusercontent.com/Eduardabarroscbg/lh-nautical-desafio-dados-ia/master/assets/01_dashboard_visao_geral.png)
 
-![Questão 6 — Previsão de demanda](assets/02_questao6_previsao.png)
+![Questão 6 — Previsão de demanda](https://raw.githubusercontent.com/Eduardabarroscbg/lh-nautical-desafio-dados-ia/master/assets/02_questao6_previsao.png)
 
-![Questão 7 — Sistema de recomendação](assets/03_questao7_recomendacao.png)
+![Questão 7 — Sistema de recomendação](https://raw.githubusercontent.com/Eduardabarroscbg/lh-nautical-desafio-dados-ia/master/assets/03_questao7_recomendacao.png)
 
 ## Nota de qualidade de dados
 
