@@ -127,6 +127,12 @@ Painel em Streamlit + Plotly, conectado direto ao banco Postgres da Questão 3, 
 - 4 achados extras: faturamento por região, top 10 produtos, cliente multi-região de maior valor, top 5 produtos em Alagoas
 - Cada questão de 4 a 7 com o cenário original do desafio, gráfico/tabela e interpretação escrita dinamicamente a partir do resultado real da query
 
+![Visão geral do painel](assets/01_dashboard_visao_geral.png)
+
+![Questão 6 — Previsão de demanda](assets/02_questao6_previsao.png)
+
+![Questão 7 — Sistema de recomendação](assets/03_questao7_recomendacao.png)
+
 ## Nota de qualidade de dados
 
 A tabela `products` contém nomes duplicados (ex.: "Bússola de Bordo 702" e "Sonar Transducer 7193" aparecem com dois `product_id` diferentes) e ao menos 2 registros de teste (nome "asdf"). Por isso, toda agregação por produto neste projeto usa `product_id`, nunca o nome — agregar por nome nesse dataset produz resultados incorretos (ex.: o registro de teste "asdf" chegou a aparecer em 1º lugar num ranking regional antes dessa correção).
